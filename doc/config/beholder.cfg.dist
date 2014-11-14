@@ -1,0 +1,29 @@
+[beholder]
+nickname = "beholder"
+username = "beholder"
+realname = "Beholder - IRC Channel Stats Aggregator"
+usermode = 8
+
+[network]
+irc_server = ""
+irc_port = 6667
+
+[database]
+database_server = "localhost"
+database_username = ""
+database_password = ""
+database_name = ""
+
+[filters]
+violent_words = "smacks|beats|punches|hits|slaps"
+profanaties = "fuck|shit|bitch|cunt|pussy"
+
+[debug]
+debug = false
+log_file_standard = "standard.log"
+log_file_errors = "errors.log"
+log_file_queries = "mysql.log"
+
+[general]
+eol = "\n\r"
+lock_file = "/tmp/beholder.pid"
